@@ -2,6 +2,8 @@
 import './App.css';
 import{BrowserRouter, Route, Routes} from 'react-router-dom'
 import Nav from './components/Nav';
+import SignUp from './components/SignUp';
+
 function App() {
   return (
     <div className="App">
@@ -14,6 +16,7 @@ function App() {
       <Route path='/update' element={<h1>General information</h1>} />
       <Route path='/logout' element={<h1>Logout</h1>} />
       <Route path='/location' element={<h1>location information</h1>} />
+      <Route path='/signup' element={<SignUp/>}/>
       
      </Routes>
      

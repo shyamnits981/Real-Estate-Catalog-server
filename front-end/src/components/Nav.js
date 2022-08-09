@@ -10,6 +10,7 @@ const Nav=()=>{
                 <li><button className="btn"><Link to="/update">General information</Link></button></li>
                 <li><button className="btn"><Link to="/logout">logout</Link></button></li>
                 <li><button className="btn"><Link to="/location">Location</Link></button></li>
+                <li><button className="btn"><Link to="/signup">Sign Up</Link></button></li>
 
             </ul>
         
